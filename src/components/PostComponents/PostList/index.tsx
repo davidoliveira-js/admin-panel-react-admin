@@ -8,11 +8,12 @@ import {
   FilterLiveSearch,
   FilterList,
   FilterListItem,
+  SearchInput,
 } from 'react-admin';
 import { Card, CardContent } from '@mui/material';
 import Person from '@mui/icons-material/Person';
 
-const PostFilter = () => {
+function PostFilter() {
   return (
     <Card sx={{ order: -1, mr: 2, mt: 8, width: 200 }}>
       <CardContent>
@@ -25,7 +26,7 @@ const PostFilter = () => {
       </CardContent>
     </Card>
   );
-};
+}
 
 export function PostList() {
   return (
